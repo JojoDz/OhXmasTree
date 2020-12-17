@@ -1,0 +1,18 @@
+Si j'entre le chiffre 1 : le sapin suivant doit s'afficher à l'écran
+  +
+ /*\
+/***\
+
+fonction Sapin(nombre) et n=1 correspond aux trois premières lignes du sapin
+6 espaces vides + "+"
+5 espaces vides + "/" + "*" + "\"
+4 espaces vides + "/" + (3 x "*") + "\"
+
+fonction Sapin(nombre=2) correspond à n=1 + 1 ligne supplémentaire
+3 espaces vides + "/" + (5 x "*") + "\"
+
+fonction Sapin(nombre=5) correspond à n=1 + n=2 + 3 lignes supplémentaires
+2 espaces vides + "/" + (7 x "*") + "\"
+1 espace vide + "/" + (9 x "*") + "\"
+"/" + (11 x "*") + "\"
+
